@@ -72,7 +72,7 @@ python3-gobject
 gtk3
 ```
 
-## ▶ Running the Application the Application
+## ▶ Running the Application
 From the project directory:
 ```bash
 python3 backup_gui.py
