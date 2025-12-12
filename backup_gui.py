@@ -61,7 +61,7 @@ def selecionar_diretorio(entry, callback=None):
     if resposta == Gtk.ResponseType.OK:
         caminho = dialog.get_filename()
 
-        # >>> Marcamos que o texto será alterado pelo código
+        # O texto será alterado pelo código
         entry._mudou_por_codigo = True
 
         entry.set_text(caminho)
@@ -107,7 +107,6 @@ def adicionar_campo_origem():
 
 
 # BACKUP EM THREAD
-
 def fazer_backup_thread(origens, destino):
     try:
         arquivos_list = []
@@ -173,7 +172,6 @@ def fazer_backup(widget):
     threading.Thread(target=fazer_backup_thread, args=(origens, destino), daemon=True).start()
 
 # INICIALIZAÇÃO DA GUI
-
 builder = Gtk.Builder()
 builder.add_from_file("main_window.ui")  # 
 
