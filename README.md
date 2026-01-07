@@ -22,6 +22,9 @@ screenshots/         # Interface screenshots
 README.md            # This document
 ```
 
+<img width="1382" height="831" alt="01" src="https://github.com/codelibet/backupgui/blob/main/screenshots/05.png" />
+
+
 ## 🚀 Features
 ### ✔ Simple graphical interface
 Built using **Gtk.Builder**, with dynamically generated source input fields.
